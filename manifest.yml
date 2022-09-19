@@ -1,0 +1,16 @@
+modules:
+  confluence:contentBylineItem:
+    - key: confluence-hello-world-custom-ui-proto00-hello-world-content-byline-item
+      resource: main
+      resolver:
+        function: resolver
+      viewportSize: medium
+      title: confluence-hello-world-custom-ui-proto00
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/01ff1d38-4dda-45d1-8052-940f2b54a524
