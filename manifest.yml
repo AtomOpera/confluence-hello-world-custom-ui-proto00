@@ -14,3 +14,4 @@ resources:
     path: static/hello-world/build
 app:
   id: ari:cloud:ecosystem::app/01ff1d38-4dda-45d1-8052-940f2b54a524
+  name: hello-world-custom-ui
